@@ -3,7 +3,6 @@ export  dwt, idwt, dwt!, idwt!,
         wpt, iwpt, wpt!, iwpt!,
         modwt, imodwt
 using ..Util, ..WT
-using FFTW
 
 # TODO Use StridedArray instead of AbstractArray where writing to array.
 # TODO change integer dependent wavelets to parametric types (see "Value types", https://docs.julialang.org/en/v1/manual/types/index.html#%22Value-types%22-1)
